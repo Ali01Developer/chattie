@@ -62,5 +62,222 @@ class _NewMessageState extends State<NewMessage> {
         ],
       ),
     );
+     @override
+  Widget build(BuildContext context) {
+    return Container(
+      margin: EdgeInsets.only(top: 10),
+      padding: EdgeInsets.all(8),
+      child: Row(
+        children: [
+          Expanded(
+            child: TextField(
+              controller: _messageController,
+              decoration: InputDecoration(labelText: "Type your message....."),
+              onChanged: (value) {
+                setState(() {
+                  _enteredMessage = value;
+                });
+              },
+            ),
+          ),
+          IconButton(
+            color: Theme.of(context).colorScheme.primary,
+            onPressed: _enteredMessage.trim().isEmpty ? null : _sendMessgae,
+            icon: Icon(
+              Icons.send,
+            ),
+          )
+        ],
+      ),
+    ); @override
+  Widget build(BuildContext context) {
+    return Container(
+      margin: EdgeInsets.only(top: 10),
+      padding: EdgeInsets.all(8),
+      child: Row(
+        children: [
+          Expanded(
+            child: TextField(
+              controller: _messageController,
+              decoration: InputDecoration(labelText: "Type your message....."),
+              onChanged: (value) {
+                setState(() {
+                  _enteredMessage = value;
+                });
+              },
+            ),
+          ),
+          IconButton(
+            color: Theme.of(context).colorScheme.primary,
+            onPressed: _enteredMessage.trim().isEmpty ? null : _sendMessgae,
+            icon: Icon(
+              Icons.send,
+            ),
+          )
+        ],
+      ),
+    ); @override
+  Widget build(BuildContext context) {
+    return Container(
+      margin: EdgeInsets.only(top: 10),
+      padding: EdgeInsets.all(8),
+      child: Row(
+        children: [
+          Expanded(
+            child: TextField(
+              controller: _messageController,
+              decoration: InputDecoration(labelText: "Type your message....."),
+              onChanged: (value) {
+                setState(() {
+                  _enteredMessage = value;
+                });
+              },
+            ),
+          ),
+          IconButton(
+            color: Theme.of(context).colorScheme.primary,
+            onPressed: _enteredMessage.trim().isEmpty ? null : _sendMessgae,
+            icon: Icon(
+              Icons.send,
+            ),
+          )
+        ],
+      ),
+    ); @override
+  Widget build(BuildContext context) {
+    return Container(
+      margin: EdgeInsets.only(top: 10),
+      padding: EdgeInsets.all(8),
+      child: Row(
+        children: [
+          Expanded(
+            child: TextField(
+              controller: _messageController,
+              decoration: InputDecoration(labelText: "Type your message....."),
+              onChanged: (value) {
+                setState(() {
+                  _enteredMessage = value;
+                });
+              },
+            ),
+          ),
+          IconButton(
+            color: Theme.of(context).colorScheme.primary,
+            onPressed: _enteredMessage.trim().isEmpty ? null : _sendMessgae,
+            icon: Icon(
+              Icons.send,
+            ),
+          )
+        ],
+      ),
+    ); @override
+  Widget build(BuildContext context) {
+    return Container(
+      margin: EdgeInsets.only(top: 10),
+      padding: EdgeInsets.all(8),
+      child: Row(
+        children: [
+          Expanded(
+            child: TextField(
+              controller: _messageController,
+              decoration: InputDecoration(labelText: "Type your message....."),
+              onChanged: (value) {
+                setState(() {
+                  _enteredMessage = value;
+                });
+              },
+            ),
+          ),
+          IconButton(
+            color: Theme.of(context).colorScheme.primary,
+            onPressed: _enteredMessage.trim().isEmpty ? null : _sendMessgae,
+            icon: Icon(
+              Icons.send,
+            ),
+          )
+        ],
+      ),
+    ); @override
+  Widget build(BuildContext context) {
+    return Container(
+      margin: EdgeInsets.only(top: 10),
+      padding: EdgeInsets.all(8),
+      child: Row(
+        children: [
+          Expanded(
+            child: TextField(
+              controller: _messageController,
+              decoration: InputDecoration(labelText: "Type your message....."),
+              onChanged: (value) {
+                setState(() {
+                  _enteredMessage = value;
+                });
+              },
+            ),
+          ),
+          IconButton(
+            color: Theme.of(context).colorScheme.primary,
+            onPressed: _enteredMessage.trim().isEmpty ? null : _sendMessgae,
+            icon: Icon(
+              Icons.send,
+            ),
+          )
+        ],
+      ),
+    ); @override
+  Widget build(BuildContext context) {
+    return Container(
+      margin: EdgeInsets.only(top: 10),
+      padding: EdgeInsets.all(8),
+      child: Row(
+        children: [
+          Expanded(
+            child: TextField(
+              controller: _messageController,
+              decoration: InputDecoration(labelText: "Type your message....."),
+              onChanged: (value) {
+                setState(() {
+                  _enteredMessage = value;
+                });
+              },
+            ),
+          ),
+          IconButton(
+            color: Theme.of(context).colorScheme.primary,
+            onPressed: _enteredMessage.trim().isEmpty ? null : _sendMessgae,
+            icon: Icon(
+              Icons.send,
+            ),
+          )
+        ],
+      ),
+    ); @override
+  Widget build(BuildContext context) {
+    return Container(
+      margin: EdgeInsets.only(top: 10),
+      padding: EdgeInsets.all(8),
+      child: Row(
+        children: [
+          Expanded(
+            child: TextField(
+              controller: _messageController,
+              decoration: InputDecoration(labelText: "Type your message....."),
+              onChanged: (value) {
+                setState(() {
+                  _enteredMessage = value;
+                });
+              },
+            ),
+          ),
+          IconButton(
+            color: Theme.of(context).colorScheme.primary,
+            onPressed: _enteredMessage.trim().isEmpty ? null : _sendMessgae,
+            icon: Icon(
+              Icons.send,
+            ),
+          )
+        ],
+      ),
+    );
   }
 }
